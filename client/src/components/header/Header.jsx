@@ -8,9 +8,9 @@ export default function Header() {
                 React & Node
             </span>
             <span className="headerTitleLg">
-                Blog
+                Bloggerly
             </span>
-            <img src="https://images.pexels.com/photos/4793154/pexels-photo-4793154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" className="headerImg"/>
+            <img src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" className="headerImg"/>
         </div>
     </div>
   )
