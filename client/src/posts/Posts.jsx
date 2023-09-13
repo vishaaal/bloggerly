@@ -1,8 +1,12 @@
-import Post from "../post/Post"
-import "./posts.css"
+import Post from "../post/Post";
+import "./posts.css";
 
 export const Posts = () => {
   return (
-    <div className="posts"><Post/></div>
-  )
-}
+    <div className="posts">
+      <Post />
+      <Post />
+      <Post />
+    </div>
+  );
+};
