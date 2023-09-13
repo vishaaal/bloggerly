@@ -8,7 +8,7 @@ import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single"
 
 function App() {
-  const user = true;
+  const user = false;
   return (
     <Router>
       <TopBar />
