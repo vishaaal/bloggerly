@@ -1,7 +1,8 @@
+import Post from "../post/Post"
 import "./posts.css"
 
 export const Posts = () => {
   return (
-    <div>Posts</div>
+    <div className="posts"><Post/></div>
   )
 }
