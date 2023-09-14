@@ -5,7 +5,7 @@ export default function Header() {
     <div className="header">
         <div className="headerTitles">
             <span className="headerTitleSm">
-                React & Node
+            Speak Your Mind, One Post at a Time.
             </span>
             <span className="headerTitleLg">
                 Bloggerly

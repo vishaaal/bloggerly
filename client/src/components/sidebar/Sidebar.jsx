@@ -22,9 +22,10 @@ export const Sidebar = () => {
           alt=""
         />
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          cumque dolor eum sequi, veritatis ab. Libero voluptate itaque ullam,
-          quos ratione enim culpa.
+          Bloggerly: Where thoughts take flight and stories come to life. Dive
+          into a dynamic web space designed for both budding and seasoned
+          bloggers, and experience the seamless blend of creativity and
+          technology. Write, share, engage – all with Bloggerly.
         </p>
       </div>
       <div className="sidebarItem">
@@ -32,7 +33,7 @@ export const Sidebar = () => {
         <ul className="sidebarList">
           {cats.map((c) => (
             <Link to={`/?cat=${c.name}`} className="link">
-            <li className="sidebarListItem">{c.name}</li>
+              <li className="sidebarListItem">{c.name}</li>
             </Link>
           ))}
         </ul>
